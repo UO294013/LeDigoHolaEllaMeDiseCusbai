@@ -1,0 +1,40 @@
+/* Vicente Megido García (UO294013) */
+/* Gama cromática: Blanco-Negro-Rojo */
+
+/* Selector Specificity: 001 */
+body {
+    font-family: 'Trebuchet MS', 'Futura', sans-serif;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+/* Selector Specificity: 001 */
+html {
+    font-size: 16px;
+}
+
+/* Selector Specificity: 001 */
+h1 {
+    font-size: 2.6rem;
+    background-color: #FF0000;
+    color: #ffffff;
+}
+
+/* Selector Specificity: 001 */
+nav {
+    font-size: 1.4rem;
+    background-color: #FFFFFF;
+    border: solid #FF0000;
+    color: #000000;
+}
+
+/* Selector Specificity: 001*/
+header {
+    background-color: #FF0000;
+    color: #ffffff;
+}
+
+/* Selector Specificity: 001 */
+p {
+    font-size: 1.2rem;
+}
