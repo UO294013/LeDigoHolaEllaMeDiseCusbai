@@ -1,0 +1,22 @@
+/* Vicente Megido García (UO294013) */
+
+/* Selector Specificity: 001 */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* Selector Specificity: 001 */
+h1 {
+    flex: 1;
+    margin-left: 50px;
+}
+
+/* Selector Specificity: 001 */
+nav {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
