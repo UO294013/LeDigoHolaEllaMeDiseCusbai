@@ -10,6 +10,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
     <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/fondo.js"></script>
 </head>
 
 <body>
@@ -27,8 +29,11 @@
         </nav>
     </header>
     <main>
-    <h2>Contenidos</h2>
-        <p>En desarrollo.</p>
+    <script>
+        $(document).ready(function() {
+            new Fondo("Bélgica", "Bruselas", "Circuito de Spa-Francorchamps");
+        });
+    </script>
     </main>
 </body>
 </html>

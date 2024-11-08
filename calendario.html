@@ -10,6 +10,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
     <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/calendario_grid.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/calendario.js"></script>
 </head>
 
 <body>
@@ -29,7 +32,7 @@
     <p>Estás en: <a href="index.html" title="Ir a Inicio">Inicio</a> >> Calendario</p>
     <main>
     <h2>Calendario</h2>
-        <p>En desarrollo. </p>
+        <button onclick = "calendario.getSeasonRacesInfo()">Obtener JSON Calendario</button>
     </main>
 </body>
 </html>

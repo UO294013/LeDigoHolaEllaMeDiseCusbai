@@ -5,11 +5,13 @@
     <title>F1 Desktop</title>
     <link rel="icon" href="multimedia/imagenes/favicon.ico" sizes="48x48">
     <meta name="author" content="Vicente Megido García (UO294013)" />
-    <meta name="description" content="Juegos disponibles relacionados con el mundo de la F1" />
+    <meta name="description" content="Juego de reacción: Semáforo de F1" />
     <meta name="keywords" content="F1, Fórmula 1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
     <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/semaforo_grid.css" />
+    <script type="text/javascript" src="js/semaforo.js"></script>
 </head>
 
 <body>
@@ -26,15 +28,11 @@
             <a class="active" href="juegos.html" title="Ir a Juegos">Juegos</a>
         </nav>
     </header>
-    <p>Estás en: <a href="index.html" title="Ir a Inicio">Inicio</a> >> Juegos</p>
+    <p>Estás en: <a href="index.html" title="Ir a Inicio">Inicio</a> >> <a href="juegos.html" title="Ir a Juegos">Juegos</a> >> Reacción</p>
     <main>
-    <h2>Juegos</h2>
-        <nav>
-            <ul>
-                <li><a href="memoria.html" title="Ir a Juego de Memoria">Memoria</a></li>
-                <li><a href="semaforo.html" title="Ir a Juego de Reacción">Reacción</a></li>
-            </ul>
-        </nav>
+        <script>
+            semaforo = new Semaforo();
+        </script>
     </main>
 </body>
 </html>
