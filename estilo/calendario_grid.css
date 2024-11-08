@@ -1,0 +1,23 @@
+/* Vicente Megido García (UO294013) */
+
+/* Selector Specificity: 001 */
+section {   
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(3, auto);
+}
+
+/* Selector Specificity: 002 */
+section > article {   
+    padding: 2%;
+    margin: 2%;
+    width: 90%; 
+    aspect-ratio: 1;
+    background-color: #B60000;
+    color: #ffffff;
+    border: 0.2em solid #000000;
+    border-radius: 0.8em;
+    box-shadow: 0 0.2em 0.5em rgba(0, 0, 0, 0.8);
+}
+
+/* Selector Specificity: 003 */
