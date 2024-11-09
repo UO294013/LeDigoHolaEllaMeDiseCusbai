@@ -1,0 +1,67 @@
+/* Vicente Megido García (UO294013) */
+
+/* Selector Specificity: 010 */
+[data-game=memory-game] {
+    padding: 0% 20% 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #B60000;
+}
+
+/* Selector Specificity: 001 */
+h2 {
+    flex: 0 0 100%;
+    font-size: 1.8em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* Selector Specificity: 001 */
+article {
+    position: relative;
+    width: 20%;
+    aspect-ratio: 2 / 3;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1);
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: transform .5s;
+    background-color: #EBEBE0;
+    border: 0.3em solid #000000;
+    border-radius: 0.8em;
+    box-shadow: 0 0.8em 1.0em rgba(0, 0, 0, 0.3);
+}
+
+/* Selector Specificity: 011 */
+article[data-state=flip], article[data-state=revealed] {
+    transform: rotateY(180deg);
+}
+
+/* Selector Specificity: 002 / 002 */
+article>h3, article>img {
+    width: 100%;
+    height: 100%;
+    font-size: 1.2em;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+/* Selector Specificity: 002*/
+article>h3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Selector Specificity: 002 */
+article>img {
+    width: 80%;
+    height: 80%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
